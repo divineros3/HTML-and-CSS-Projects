@@ -34,6 +34,125 @@
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/e_E9W2vsRbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 		<!-- END TRAILER -->
+
+		<!--IMAGES USED TO OPEN THE LIGHTBOX-->
+		<div class="row">
+			<div class="col">
+				<img src="./Images/Thumb/Brimstone - Copy.jfif" onclick="openLightbox();toSlide(1)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Chamber - Copy.jfif" onclick="openLightbox();toSlide(2)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Fade - Copy.jfif" onclick="openLightbox();toSlide(3)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Jett - Copy.jfif" onclick="openLightbox();toSlide(4)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/killjoy - Copy.jfif" onclick="openLightbox();toSlide(5)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Reyna - Copy.jfif" onclick="openLightbox();toSlide(6)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Sage - Copy.jfif" onclick="openLightbox();toSlide(7)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Sova - Copy.jfif" onclick="openLightbox();toSlide(8)" class="hover-shadow preview">
+			</div>
+			<div class="col">
+				<img src="./Images/Thumb/Viper - Copy.jfif" onclick="openLightbox();toSlide(9)" class="hover-shadow preview">
+			</div>
+		</div>
+		<!--END IMAGES USED TO OPEN THE LIGHTBOX-->
+
+		<!--THE MODAL LIGHTBOX-->
+		<div id="Lightbox" class="modal">
+			<span class="close pointer" onclick="closeLightbox()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="slide">
+				<img src="./Images/Thumb/Brimstone.jfif" class="image-slide" alt="Brimstone" />
+			  </div>
+		  
+			  <div class="slide">
+				<img src="./Images/Thumb/Chamber.jfif" class="image-slide" alt="Chamber" />
+			  </div>
+		  
+			  <div class="slide">
+				<img src="./Images/Thumb/Fade.jfif" class="image-slide" alt="Fade" />
+			  </div>
+		  
+			  <div class="slide">
+				<img src="./Images/Thumb/Jett.jfif" class="image-slide" alt="Jett" />
+			  </div>
+
+			  <div class="slide">
+				<img src="./Images/Thumb/killjoy.jfif" class="image-slide" alt="Killjoy" />
+			  </div>
+
+			  <div class="slide">
+				<img src="./Images/Thumb/Reyna.jfif" class="image-slide" alt="Reyna" />
+			  </div>
+
+			  <div class="slide">
+				<img src="./Images/Thumb/Sage.jfif" class="image-slide" alt="Sage" />
+			  </div>
+
+			  <div class="slide">
+				<img src="./Images/Thumb/Sova.jfif" class="image-slide" alt="Sova" />
+			  </div>
+
+			  <div class="slide">
+				<img src="./Images/Thumb/Viper.jfif" sclass="image-slide" alt="Viper" />
+			  </div>
+		<!--END LIGHTBOX-->
+
+		<!--NEXT/PREVIOUS CONTROLS-->
+		<a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+		<a class="next" onclick="changeSlide(1)">&#10095;</a>
+		<!--END NEXT/PREVIOUS CONTROLS-->
+
+		<!--THUMBNAIL IMAGE CONTROLS-->
+		<div class="dots">
+			<div class="col">
+				<img src="./Images/Thumb/Brimstone - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Brimstone">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/Chamber - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Chamber">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/Fade - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Fade">
+			</div>
+
+			<div class="col">
+				<img  src="./Images/Thumb/Jett - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(4)" alt="Jett">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/killjoy - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(5)" alt="Killjoy">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/Reyna - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(6)" alt="Reyna">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/Sage - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(7)" alt="Sage">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/Sova - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(8)" alt="Sova">
+			</div>
+
+			<div class="col">
+				<img src="./Images/Thumb/Viper - Copy.jfif" class="modal-preview hover-shadow" onclick="toSlide(9)" alt="Viper">
+			</div>
+		</div>
+		<!--END THUMBNAIL IMAGE CONTROLS-->
 		
 		<!-- GALLERY -->
 		<section>
