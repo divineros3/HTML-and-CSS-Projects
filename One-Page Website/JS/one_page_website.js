@@ -41,6 +41,6 @@ function showSlide(n) {
         modalPreviews[i].className = modalPreviews[i].className.replace(" active", "");
     }
 
-    slides[slideIndex - 1].stlye.display = "block";
+    slides[slideIndex - 1].style.display = "block";
     modalPreviews[slideIndex - 1].className += " active";
 }
