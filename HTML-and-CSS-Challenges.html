@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            img {
+                filter: grayscale(100%);
+                border: 2px solid navy;
+                border-radius: 25px;
+            }
+            footer {
+                text-align: center;
+                font-weight: bold;
+            }
+            table, th, td {
+                border: 2px solid navy;
+                border-collapse: collapse;
+                padding: 1%; 
+                padding-left: 1%;
+                padding-right: 1%;
+                padding-inline: 1%;
+                width: 50%;
+            }
+            th {
+                background-color: #96D4D4
+            }
+            .container {
+                position: relative;
+                text-align: center;
+                color: yellow
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #96D4D4;
+            }
+            li {
+                float: left;
+            }
+            a {
+                display: block;
+                padding: 8px;
+                background-color: #96D4D4
+            }
+            li a {
+                display: block;
+                color: navy;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: aqua;
+            }
+            .column {
+                float: left;
+                width: 50%;
+                color: navy;
+                height: 200px;
+                width: 50%;
+                background-color: aqua;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            p:hover {
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <!--NAV BAR-->
+		<div class="menu-container">
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- END NAV BAR-->
+       <div class="container">
+            <img src="italy.jpeg" alt="Italy" style="width:100%;">
+            <div class="centered">Italy</div>
+            <div class="overlay overlayleft"></div>
+        </div>
+        <div class="row">
+            <div class="column">Left</div>
+            <div class="column">Right</div>
+        </div>
+        <div>
+            <p>Hover selector</p>
+        </div>
+        <table>
+            <tr>
+              <th><strong>Name</strong></th>
+              <th><Strong>Relationship</Strong></th>
+              <th><Strong>Favorite Color</Strong></th>
+            </tr>
+            <tr>
+              <td>Divine Martinez</td>
+              <td>Myself</td>
+              <td>Pink</td>
+            </tr>
+            <tr>
+              <td>Sean Godfrey</td>
+              <td>Spouse</td>
+              <td>Blue</td>
+            </tr>
+          </table>
+    </body>
+    <footer>
+        <p>Author: Divine Martinez</p>
+        <p><a href="divinerosem3@gmail.com">divinerosem3@gmail.com</a></p>
+    </footer>
+</html>
